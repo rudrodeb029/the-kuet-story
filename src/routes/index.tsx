@@ -1,7 +1,6 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState, type AnimationEvent, type MouseEvent } from "react";
 import confetti from "canvas-confetti";
-import { Lock } from "lucide-react";
 import { recordProposalReply } from "../lib/proposal-api";
 
 export const Route = createFileRoute("/")({
@@ -396,16 +395,6 @@ function Story() {
       className="story-page bg-sky relative flex min-h-[100svh] select-none items-center justify-center overflow-x-clip overflow-y-auto"
     >
       <FloatingHearts />
-
-      <Link
-        to="/admin"
-        aria-label="এডমিন প্যানেল"
-        title="এডমিন প্যানেল 🔐"
-        onClick={(event) => event.stopPropagation()}
-        className="fixed z-20 top-3 left-3 sm:top-4 sm:left-4 rounded-full border border-border/70 bg-card/70 p-2.5 text-foreground/40 shadow-sm backdrop-blur-md transition-all hover:text-foreground hover:bg-card hover:scale-105 hover:shadow-card"
-      >
-        <Lock className="w-4 h-4" />
-      </Link>
 
       <button
         type="button"
