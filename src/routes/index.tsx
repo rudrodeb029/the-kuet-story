@@ -1242,9 +1242,6 @@ function RomanticIllustration({
         </g>
       </svg>
       <div className="book-left-body">
-        <p className="book-art-caption">
-          {chapterName} <span>♥</span>
-        </p>
         {!cover && leftProse && <p className="book-left-prose">{leftProse}</p>}
       </div>
       {!cover && (
