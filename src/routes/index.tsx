@@ -164,10 +164,46 @@ function Story() {
   const isTransitioning = useRef(true);
   const soundOnRef = useRef(true);
   const soundscapeRef = useRef<Soundscape | null>(null);
+  const bgAudioRef = useRef<HTMLAudioElement | null>(null);
   const lastNoSoundRef = useRef(0);
   const idRef = useRef(0);
 
+  const startBgMusic = () => {
+    if (!soundOnRef.current) return;
+    const audio = bgAudioRef.current;
+    if (audio && audio.paused) {
+      audio.volume = 1.0;
+      audio.play().catch((error: unknown) => {
+        // Autoplay may be restricted until first gesture
+      });
+    }
+  };
+
   useEffect(() => {
+    if (typeof Audio !== "undefined") {
+      const audio = new Audio("/bg-music.mp3");
+      audio.loop = true;
+      audio.volume = 1.0;
+      bgAudioRef.current = audio;
+
+      const handleFirstInteraction = () => {
+        startBgMusic();
+      };
+
+      window.addEventListener("pointerdown", handleFirstInteraction, { passive: true });
+      window.addEventListener("keydown", handleFirstInteraction, { passive: true });
+
+      return () => {
+        window.removeEventListener("pointerdown", handleFirstInteraction);
+        window.removeEventListener("keydown", handleFirstInteraction);
+        audio.pause();
+        bgAudioRef.current = null;
+        const soundscape = soundscapeRef.current;
+        if (!soundscape) return;
+        void soundscape.context.close();
+      };
+    }
+
     return () => {
       const soundscape = soundscapeRef.current;
       if (!soundscape) return;
@@ -272,6 +308,12 @@ function Story() {
     soundOnRef.current = nextSoundOn;
     setSoundOn(nextSoundOn);
 
+    if (!nextSoundOn) {
+      bgAudioRef.current?.pause();
+    } else {
+      startBgMusic();
+    }
+
     const soundscape = soundscapeRef.current;
     if (!nextSoundOn && soundscape) {
       const now = soundscape.context.currentTime;
@@ -303,6 +345,7 @@ function Story() {
   };
 
   const onTap = (x: number, y: number) => {
+    startBgMusic();
     if (coverOpen || isTransitioning.current) return;
     const s = scenes[step]!;
 
@@ -338,6 +381,7 @@ function Story() {
 
   const openCover = () => {
     if (!coverOpen || coverOpening) return;
+    startBgMusic();
     playClickSound();
     setCoverOpening(true);
   };
@@ -382,6 +426,7 @@ function Story() {
 
   const sayYes = () => {
     setDone(true);
+    startBgMusic();
     playClickSound();
     void recordProposalReply("YES");
     const end = Date.now() + 12000;
