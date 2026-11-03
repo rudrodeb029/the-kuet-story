@@ -33,9 +33,9 @@ const scenes: Scene[] = [
   {
     icon: "💌",
     chapterWord: "Prologue",
-    title: "তোমার জন্য কিছু কথা...",
+    title: "A Few Words For You...",
     leftProse:
-      "কিছু কথা সামনাসামনি দাঁড়িয়ে কখনো গুছিয়ে বলা যায় না। মনের ভেতর অনেক লজ্জা আর জড়তা কাজ করে। তাই আমাদের চেনা স্মৃতিগুলো আজ এই ডিজিটাল বইটার পাতায় তোমার সামনে মেলে ধরলাম।",
+      "“Some feelings can never be fully spoken aloud. A quiet hesitation, a little fear of losing what we have... Today, I unfold these cherished memories just for you.”",
     dropCap: "জা",
     text: "নো পূজা, তোমাকে এই কথাগুলো অনেক দিন ধরেই মন খুলে বলতে চেয়েছিলাম। স্ক্রিনের ওপর বা পাতার কোণে আলতো ক্লিক করো—প্রতিটি পাতা উল্টে যাবে আমাদের সেই ফেলে আসা দিনগুলোর দিকে।",
     effect: "burst",
@@ -43,9 +43,9 @@ const scenes: Scene[] = [
   {
     icon: "🏫",
     chapterWord: "Chapter One",
-    title: "KUET-এর দিনগুলো আর নাকে তিল",
+    title: "The KUET Days & That Sweet Mole",
     leftProse:
-      "খুব অল্প কয়েকদিনই সামনাসামনি দেখা আর কথা হয়েছিল আমাদের। কিন্তু অদ্ভুতভাবে ওই ক'দিনেই তোমার চঞ্চল চোখ আর হাসিমাখা মুখটা আমার মনের ভেতর স্থায়ী জায়গা করে নিয়েছিল।",
+      "“We only met for a handful of days on the KUET campus, yet your bright eyes and gentle laughter lingered in my mind. You smiled and corrected me—‘Not on my cheek, it’s on my nose!’ That little moment still brings a warm smile to my face.”",
     dropCap: "শু",
     text: "রুটা হয়েছিল আমাদের KUET ক্যাম্পাসে। কোর্সের ওই অল্প কিছুদিনেই তোমার সাথে একটু পরিচয়। পরে তোমার হোয়াটসঅ্যাপে ঘিবলি আর্টের ছবিটা দেখে বলেছিলাম—চেহারাটা কেমন যেন আবছা মনে পড়ে, তবে গালে একটা মিষ্টি তিল ছিল। তুমি তখন হেসে শুধরে দিয়েছিলে—'গালে না, নাকে!' সত্যি বলতে, তোমার সেই হাসিমাখা কথাটাই আমার মনের ভেতর এখনো গেঁথে আছে।",
     effect: "burst",
@@ -53,9 +53,9 @@ const scenes: Scene[] = [
   {
     icon: "🌸",
     chapterWord: "Chapter Two",
-    title: "অসুস্থতা আর তোমার একটুখানি যত্ন",
+    title: "Unspoken Care in Dark Days",
     leftProse:
-      "জীবনে যখন খুব একা আর ক্লান্ত লাগে, তখন ভালোবাসার মানুষের একটুখানি খোঁজখবর নেওয়াটাও এক বুক সাহস আর বেঁচে থাকার বড় শক্তি হয়ে দাঁড়ায়।",
+      "“When Dengue left me weak and broken in Khulna, you simply said—‘Take your medicine, rest well, work can wait.’ You might never know how much courage and healing those few quiet words gave me.”",
     dropCap: "ম",
     text: "নে আছে যখন খুলনায় আমার মারাত্মক ডেঙ্গু হলো? শরীর প্রচণ্ড দুর্বল, ওজন কমে একদম শেষ, সব কাজকর্ম আর পড়াশোনা বন্ধ। তখন তুমি মেসেজে বলেছিলে—'ওষুধ ঠিকমতো খেয়ো, রেস্ট নাও, কাজ পরে হবে নে রে। Take rest!' সেই সামান্য কয়েকটা সাধারণ কথায় যে আমার জন্য কত বড় সান্ত্বনা লুকিয়ে ছিল, তুমি হয়তো ভাবতেও পারবে না। তোমার ওই এক চিলতে যত্নই আমাকে দ্রুত সুস্থ হতে সাহায্য করেছিল।",
     effect: "glow",
@@ -63,9 +63,9 @@ const scenes: Scene[] = [
   {
     icon: "💍",
     chapterWord: "Chapter Three",
-    title: "সোজাসুজি মনের কথা—বিয়ে করার মতো পছন্দ",
+    title: "An Honest Confession of the Heart",
     leftProse:
-      "কাউকে সত্যিকারের ভালোবাসলে কোনো লুকোচুরি থাকে না। নিজের স্বপ্ন, ক্যারিয়ার আর দায়িত্ব নেওয়ার ইচ্ছেটা এক নিঃশ্বাসে সত্যি করে বলে দেওয়া যায়।",
+      "“I wanted to be completely honest with you—not for a fleeting romance, but as a partner for a lifetime. You appreciated my honesty with such grace, even while gently holding onto our friendship.”",
     dropCap: "সু",
     text: "স্থ হয়ে সাহস করে তোমাকে সোজাসুজি জানিয়েছিলাম—'তোমাকে কিন্তু আমি কোনো টাইমপাস প্রেম করার মতো নয়, সারা জীবনের জন্য বিয়ে করার মতো পছন্দ করি।' জীবনে একটু উচ্চাকাঙ্ক্ষী আমি, নিজের পায়ে শক্ত হয়ে দাঁড়িয়ে প্রিয় মানুষের সব দায়িত্ব নিতে চেয়েছি। তুমি কত সুন্দর আর সম্মান দিয়ে বলেছিলে—'তোমার কথাগুলো পড়ে ভালো লেগেছে, কারণ তুমি খুব সম্মান দিয়ে বলেছো।' কিন্তু শেষে একটা বন্ধুত্বের গণ্ডি টেনে দিলে!",
     effect: "glow",
@@ -73,9 +73,9 @@ const scenes: Scene[] = [
   {
     icon: "💬",
     chapterWord: "Chapter Four",
-    title: "'আমাতেই শুরু, আমাতেই শেষ' আর খুনসুটি",
+    title: "Begins with You, Ends with You",
     leftProse:
-      "দুজনের মিষ্টি খুনসুটি আর হাসাহাসিগুলো সম্পর্কের সবচেয়ে সুন্দর স্মৃতি। যেখানে মান-অভিমান আর অধিকারবোধ হাত ধরাধরি করে চলে।",
+      "“You teased me about your future husband—‘Rich, respectful, hygienic, doting, begins with me and ends with me!’ And when you joked that I’d block my wife if she didn’t reply, I silently knew—if it’s you, I would search the whole world to bring you home.”",
     dropCap: "তো",
     text: "মার মনে আছে সেই মজার কথাগুলো? যখন জিজ্ঞেস করলাম কেমন বর চাও, তুমি বলেছিলে—'Rich, respectful, hygienic, doting, আমাতেই শুরু, আমাতেই শেষ!' আর আমার একটু দেরিতে রিপ্লাইয়ের ক্ষোভ দেখে তুমি হাসতে হাসতে বললে—'শুভ্র, তোমার বউ বাপের বাড়ি গিয়ে ফোন না ধরলে তুমি তো তাকেও ব্লক করে দিবা!' আমি মনে মনে তখনই ভেবে নিয়েছিলাম—আমার বউটা যদি তুমি হও, তবে তো চিরুনি তল্লাশি দিয়ে হলেও খুঁজে আনব, তোমাকে ছাড়া কি আমার চলবে?!",
     effect: "likes",
@@ -83,9 +83,9 @@ const scenes: Scene[] = [
   {
     icon: "📱",
     chapterWord: "Chapter Five",
-    title: "অ্যাপসের স্বপ্ন আর ঢাকার ধকল",
+    title: "Chasing Dreams & Quiet Struggles",
     leftProse:
-      "নিজের স্বপ্ন সত্যি করার লড়াই আর ব্যর্থতার মাঝেও প্রিয় মানুষের ছোট্ট একটা উৎসাহ পুরো ক্লান্তি মুছে দেয়।",
+      "“Building apps late into the night, rushing through the dust of Dhaka only to find the exam cancelled... Through every struggle, your genuine words—‘Hats off to you guys!’—made every bit of hard work worthwhile.”",
     dropCap: "এ",
     text: "কদিকে আমার অ্যাপ আর ম্যাথ পাজল গেম নিয়ে দিনরাত এক করে কাজ করা, আর অন্যদিকে ঢাকায় যুব উন্নয়ন পরীক্ষার সেই ধকল! সারা দিন ধুলোবালি খেয়ে গিয়ে দেখি প্রশ্ন ফাঁস, পরীক্ষা বাতিল। যখন তোমাকে জানালাম, তুমি সহানুভূতি জানালে। আমার বানানো অ্যাপগুলো দেখে তুমি অবাক হয়ে বলেছিলে—'আমি একটা কাজই পারি না, আর তোমরা দুই-তিনটা কাজ একসাথে করো, hats off!' তোমার ওই ছোট্ট প্রশংসাটুকুও আমার জন্য অনেক স্পেশাল ছিল।",
     effect: "likes",
@@ -93,9 +93,9 @@ const scenes: Scene[] = [
   {
     icon: "💔",
     chapterWord: "Chapter Six",
-    title: "তীব্র অভিমান আর না-বলা যন্ত্রণা",
+    title: "The Hurt, The Fear & The Block",
     leftProse:
-      "কাউকে অতিরিক্ত আপন ভাবলে তার একটু নীরবতাও বুকে তীরের মতো বিঁধে। তখন হারানোর ভয়ে নিজের ওপরই রাগ জমে।",
+      "“Being an introvert, late replies felt like silent rejection, and I grew terrified that caring too much would end in heartbreak. When I begged you to block me, it was never anger—it was just a desperate heart scared of losing you.”",
     dropCap: "আ",
     text: "মি মানুষটা বড্ড ইন্ট্রোভার্ট। মন থেকে কাউকে ভালোবাসলে তার একটু দেরিতে রিপ্লাই আসলেও বুকটা অস্থির হয়ে উঠত। আর ভেতরে ভয় কাজ করত—কথা বলতে বলতে মায়া বাড়লে পরে যদি ছেড়ে যাও? তাই অভিমানে আর যন্ত্রণায় পাগল হয়ে বারবার বললাম—'আমাকে সব জায়গা থেকে ব্লক করে দাও, তুমি আমার মানসিক যন্ত্রণা হয়ে যাচ্ছো।' ওটা রাগ ছিল না পূজা, ওটা ছিল তোমাকে হারানোর ভয়ে এক বুক অভিমান আর অসহায় ভালোবাসা।",
     effect: "shake",
@@ -105,7 +105,7 @@ const scenes: Scene[] = [
     chapterWord: "Chapter Seven",
     title: "Will You Be Mine?",
     leftProse:
-      "আজ সব মান-অভিমান, ভয় আর দূরত্ব পেছনে ফেলে। এই গল্পের শেষ পাতায় এসে শুরু হোক আমাদের জীবনের নতুন এক অধ্যায়।",
+      "“Leaving all fears, unspoken tears, and distance behind... You once asked if becoming special was truly that simple. It never was, Puja. But since that first day, my heart has belonged only to you. Will you walk this life with me?”",
     dropCap: "পূ",
     text: "জোর সেই দিনগুলোতে ভাইকে বাঁচাতে গিয়ে হাত কেটে ফেলা, কিংবা বিজয়ার সকালে জানতে চাওয়া—আমাদের কি নতুন শুরু হতে পারে? তুমি বলেছিলে এসব হাবাজাবি বাদ দিয়ে পুজো উপভোগ করতে। কিন্তু তোমায় ছাড়া আমার মন যে আর কিছুতেই বসে না! তুমি বলেছিলে—'Special মানুষ চাইলাম আর হয়ে গেলাম এতো সহজ!?' সহজ নয় জানি, তবে KUET-এর সেই দিন থেকে আজও আমার মনের পুরোটা জুড়ে শুধুই তুমি। আমি সাধারণ কোনো বন্ধু নয়, তোমার সেই 'আমাতেই শুরু, আমাতেই শেষ' মানুষটা হতে চাই। তুমি কি আমার বাকি জীবনের বেঁচে থাকার একমাত্র অনুপ্রেরণা হবে? 🥰",
     effect: "none",

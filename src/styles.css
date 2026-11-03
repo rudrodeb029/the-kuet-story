@@ -332,12 +332,14 @@
 }
 .book-left-prose {
   margin: 0;
-  color: #3a2e28;
-  font-family: var(--font-bangla);
-  font-size: clamp(0.64rem, 1.2vw, 0.96rem);
-  line-height: 1.68;
-  text-align: justify;
-  opacity: 0.92;
+  color: #3d2c25;
+  font-family: var(--font-serif-book), 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  font-size: clamp(0.76rem, 1.4vw, 1.12rem);
+  line-height: 1.72;
+  text-align: center;
+  letter-spacing: 0.01em;
+  opacity: 0.95;
 }
 
 /* Right Page (Recto) */
@@ -455,10 +457,10 @@
 .book-story-title {
   margin: 0;
   color: #231915;
-  font-family: var(--font-serif-book), var(--font-bangla);
-  font-size: clamp(0.95rem, 2.3vw, 1.85rem);
+  font-family: var(--font-script), 'Dancing Script', cursive;
+  font-size: clamp(1.35rem, 3.2vw, 2.3rem);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   text-align: left;
   overflow-wrap: anywhere;
@@ -570,7 +572,7 @@
 }
 .book-copy-stage--turning .book-copy-underlay { opacity: 1; }
 .book-next-icon { margin: 0.5rem 0; font-size: clamp(2rem, 4.5vw, 3.6rem); }
-.book-next-title { margin: 0; color: #3d2b24; font-family: var(--font-serif-book), var(--font-bangla); font-size: clamp(1.05rem, 2.5vw, 2rem); line-height: 1.2; }
+.book-next-title { margin: 0; color: #3d2b24; font-family: var(--font-script), 'Dancing Script', cursive; font-size: clamp(1.25rem, 2.8vw, 2.1rem); line-height: 1.25; }
 .book-next-hint { margin-top: 0.4rem; color: #6e5a4c; font-size: clamp(0.62rem, 1.15vw, 0.88rem); }
 .book-copy-page--turning-out { animation: book-page-turn-out 720ms cubic-bezier(.68, 0, .32, 1) both; }
 .book-copy-page--turning-in { animation: book-page-turn-in 620ms cubic-bezier(.2, .75, .25, 1) both; }
